@@ -59,21 +59,7 @@ CarbonOps is an ESG technology company that analyzes carbon emissions, energy co
 Help CarbonOps sustainability analysts and business managers understand emissions performance, identify high-emitting facilities, monitor carbon reduction targets, and make data-driven sustainability decisions.
 ```
 
-#### Step 2 - Add Business Synonyms
-
-In the knowledge store or relevant field metadata, configure synonyms:
-
-| Column / metric | Synonyms |
-| :--- | :--- |
-| `total_tco2e` | Carbon footprint, total carbon emissions, GHG emissions |
-| `scope1_tco2e` | Direct emissions, Scope 1 |
-| `scope2_tco2e` | Indirect emissions, electricity emissions |
-| `carbon_intensity_kg_per_unit` | Emissions efficiency, carbon intensity |
-| `annual_target_tco2e` | Carbon budget, emissions target |
-| `target_utilization_pct` | Target utilization, budget consumed |
-
-
-#### Step 3 - Add a verified example SQL Query
+#### Step 2 - Add a verified example SQL Query
 
 <strong>Example question</strong>: Which facilities emitted the most carbon in 2025?
 
