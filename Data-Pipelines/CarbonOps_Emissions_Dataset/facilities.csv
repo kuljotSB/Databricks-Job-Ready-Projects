@@ -1,0 +1,21 @@
+facility_id,facility_name,city,state,country,region,industry,commissioned_year,area_sq_m,status
+FAC-001,Mumbai Automotive Plant,Mumbai,Maharashtra,India,IN-W,Automotive,2006,41090,Active
+FAC-002,Pune Components Plant,Pune,Maharashtra,India,IN-W,Components,2007,23682,Active
+FAC-003,Ahmedabad Textiles Plant,Ahmedabad,Gujarat,India,IN-W,Textiles,2008,28179,Active
+FAC-004,Surat Chemicals Plant,Surat,Gujarat,India,IN-W,Chemicals,2009,29726,Active
+FAC-005,Chennai Automotive Plant,Chennai,Tamil Nadu,India,IN-S,Automotive,2010,6340,Active
+FAC-006,Bengaluru Electronics Plant,Bengaluru,Karnataka,India,IN-S,Electronics,2011,28236,Active
+FAC-007,Hyderabad Pharmaceuticals Plant,Hyderabad,Telangana,India,IN-S,Pharmaceuticals,2012,34755,Active
+FAC-008,Kolkata Steel Plant,Kolkata,West Bengal,India,IN-E,Steel,2013,11337,Active
+FAC-009,Jaipur Textiles Plant,Jaipur,Rajasthan,India,IN-N,Textiles,2014,23422,Active
+FAC-010,Noida Electronics Plant,Noida,Uttar Pradesh,India,IN-N,Electronics,2015,23213,Active
+FAC-011,Indore Food Processing Plant,Indore,Madhya Pradesh,India,IN-C,Food Processing,2016,28364,Active
+FAC-012,Vadodara Chemicals Plant,Vadodara,Gujarat,India,IN-W,Chemicals,2017,16070,Active
+FAC-013,Nashik Components Plant,Nashik,Maharashtra,India,IN-W,Components,2018,24548,Active
+FAC-014,Coimbatore Textiles Plant,Coimbatore,Tamil Nadu,India,IN-S,Textiles,2019,39794,Active
+FAC-015,Visakhapatnam Steel Plant,Visakhapatnam,Andhra Pradesh,India,IN-S,Steel,2020,31050,Active
+FAC-016,Ludhiana Components Plant,Ludhiana,Punjab,India,IN-N,Components,2021,24145,Active
+FAC-017,Nagpur Food Processing Plant,Nagpur,Maharashtra,India,IN-C,Food Processing,2005,38553,Active
+FAC-018,Mysuru Electronics Plant,Mysuru,Karnataka,India,IN-S,Electronics,2006,17454,Active
+FAC-019,Bhopal Pharmaceuticals Plant,Bhopal,Madhya Pradesh,India,IN-C,Pharmaceuticals,2007,37056,Active
+FAC-020,Rajkot Automotive Plant,Rajkot,Gujarat,India,IN-W,Automotive,2008,19474,Active

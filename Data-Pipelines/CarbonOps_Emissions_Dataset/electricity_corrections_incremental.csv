@@ -1,0 +1,5 @@
+record_id,facility_id,period_end,electricity_value,electricity_unit,meter_id,source_system,received_at
+EL-000591,FAC-013,2026-03-31,199448.04,kWh,MTR-013,EnergyERP,2026-11-20
+EL-000216,FAC-005,2025-08-31,304490.93,kWh,MTR-005,EnergyERP,2026-11-20
+EL-000706,FAC-016,2024-04-30,97334.67,kWh,MTR-016,EnergyERP,2026-11-20
+EL-000086,FAC-002,2026-04-30,405400.56,kWh,MTR-002,EnergyERP,2026-11-20

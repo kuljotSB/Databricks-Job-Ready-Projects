@@ -1,0 +1,17 @@
+factor_id,source_type,year,geography,activity_unit,kg_co2e_per_unit,methodology,source_reference
+EF-2023-electricity_grid,electricity_grid,2023,India,kWh,0.72,SYNTHETIC_TRAINING_ONLY,Illustrative factor - not for ESG reporting
+EF-2023-diesel,diesel,2023,India,litre,2.68,SYNTHETIC_TRAINING_ONLY,Illustrative factor - not for ESG reporting
+EF-2023-natural_gas,natural_gas,2023,India,m3,2.05,SYNTHETIC_TRAINING_ONLY,Illustrative factor - not for ESG reporting
+EF-2023-lpg,lpg,2023,India,kg,3.0,SYNTHETIC_TRAINING_ONLY,Illustrative factor - not for ESG reporting
+EF-2024-electricity_grid,electricity_grid,2024,India,kWh,0.71136,SYNTHETIC_TRAINING_ONLY,Illustrative factor - not for ESG reporting
+EF-2024-diesel,diesel,2024,India,litre,2.68,SYNTHETIC_TRAINING_ONLY,Illustrative factor - not for ESG reporting
+EF-2024-natural_gas,natural_gas,2024,India,m3,2.05,SYNTHETIC_TRAINING_ONLY,Illustrative factor - not for ESG reporting
+EF-2024-lpg,lpg,2024,India,kg,3.0,SYNTHETIC_TRAINING_ONLY,Illustrative factor - not for ESG reporting
+EF-2025-electricity_grid,electricity_grid,2025,India,kWh,0.70272,SYNTHETIC_TRAINING_ONLY,Illustrative factor - not for ESG reporting
+EF-2025-diesel,diesel,2025,India,litre,2.68,SYNTHETIC_TRAINING_ONLY,Illustrative factor - not for ESG reporting
+EF-2025-natural_gas,natural_gas,2025,India,m3,2.05,SYNTHETIC_TRAINING_ONLY,Illustrative factor - not for ESG reporting
+EF-2025-lpg,lpg,2025,India,kg,3.0,SYNTHETIC_TRAINING_ONLY,Illustrative factor - not for ESG reporting
+EF-2026-electricity_grid,electricity_grid,2026,India,kWh,0.69408,SYNTHETIC_TRAINING_ONLY,Illustrative factor - not for ESG reporting
+EF-2026-diesel,diesel,2026,India,litre,2.68,SYNTHETIC_TRAINING_ONLY,Illustrative factor - not for ESG reporting
+EF-2026-natural_gas,natural_gas,2026,India,m3,2.05,SYNTHETIC_TRAINING_ONLY,Illustrative factor - not for ESG reporting
+EF-2026-lpg,lpg,2026,India,kg,3.0,SYNTHETIC_TRAINING_ONLY,Illustrative factor - not for ESG reporting
