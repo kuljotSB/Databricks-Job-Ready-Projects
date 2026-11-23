@@ -66,26 +66,47 @@ def validate_features(features: Dict[str, Any]) -> None:
 
 
 # Helper function: Invoke Databricks Serving Endpoint
+import logging
+from databricks.sdk.service.serving import DataframeSplitInput
+
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger("carbonops-mcp")
+
+
 def call_model(
     endpoint: str,
     features: Dict[str, Any]
 ) -> Any:
 
-    # Databricks SDK handles authentication automatically
-    response = workspace.serving_endpoints.query(
-        name=endpoint,
-        dataframe_split={
-            "columns": list(features.keys()),
-            "data": [list(features.values())]
-        }
-    )
+    try:
+        logger.info("Calling endpoint: %s", endpoint)
+        logger.info("Features: %s", features)
 
-    if not response.predictions:
-        raise RuntimeError(
-            f"No predictions returned by endpoint: {endpoint}"
+        payload = DataframeSplitInput(
+            columns=list(features.keys()),
+            data=[list(features.values())]
         )
 
-    return response.predictions[0]
+        response = workspace.serving_endpoints.query(
+            name=endpoint,
+            dataframe_split=payload
+        )
+
+        logger.info("Model response: %s", response)
+
+        if not response.predictions:
+            raise RuntimeError(
+                f"No predictions returned from {endpoint}"
+            )
+
+        return response.predictions[0]
+
+    except Exception:
+        logger.exception(
+            "Model Serving call failed for %s",
+            endpoint
+        )
+        raise
 
 
 # Helper function: Extract Regression Prediction
