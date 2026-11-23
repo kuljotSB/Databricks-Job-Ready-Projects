@@ -1,0 +1,3 @@
+version: 1
+name: "CarbonOps MCP Server"
+description: "A Custom MCP Server for CarbonOps ESG Operations"

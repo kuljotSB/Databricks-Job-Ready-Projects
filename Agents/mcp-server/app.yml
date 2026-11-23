@@ -1,0 +1,13 @@
+command:
+  - python
+  - app.py
+
+env:
+  - name: PORT
+    value: "8000"
+
+  - name: EMISSIONS_ENDPOINT
+    valueFrom: emissions-model
+
+  - name: RISK_ENDPOINT
+    valueFrom: risk-model
